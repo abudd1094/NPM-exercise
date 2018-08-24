@@ -1,22 +1,49 @@
+body {
+  font-family: source sans pro; 
+  margin: 0;
+  color: white;
+}
+
+h1 {
+  font-size: 38px;
+}
+
+.button {
+  border-radius: 10px;
+  border: none;
+  color: white;
+  padding: 5px 20px 5px 20px;
+  font-size: 14px;
+}
+
+.link {
+  color: white;
+}
+
 /* Nav Bar */
 @font-face {
   font-family: fallingsky;
   src: url(fallingskybd.otf);
 }
-body {
-  font-family: verdana;
-}
 
 nav {
   background-color: #C12127;
   color: rgba(255,255,255,0.8);
-  padding-top: 15px;
-  height: 100px;
+  padding: .5rem .25rem .5rem .25rem;
+  height: 1.4rem;
 }
 
 nav a {
   color: rgba(255,255,255,0.8);
   text-decoration: none;
+}
+
+.top-left, .top-links {
+  font-size: .875rem;
+}
+
+.top-left {
+  margin: 0 20px 0 20px;
 }
 
 .top-links {
@@ -29,4 +56,122 @@ nav a {
 .top-links li {
   display: inline-block;
   margin: 0 10px;
+}
+
+/* Section 1 Header */
+
+#section-1 {
+  background-image: url("images/city-scape.svg");
+  color: white;
+  padding-bottom: 20px;
+}
+
+.header-1 {
+  padding: .5rem .25rem .5rem .25rem;
+  display: block;
+  width: 100%;
+}
+
+.logo {
+  width: 6%;
+  height: auto;
+  position: relative;
+  top: 12px;
+  left: 10px;
+}
+
+.search-bar {
+  background: rgb(31, 82, 111);
+  border: none;
+  position: relative;
+  left: 20px;
+  width: 80%;
+  height: 28px;
+  color: white;
+  margin-right: 30px;
+}
+
+.header-2 {
+  padding: 10px 50% 100px 20%;
+}
+
+.city-scape {
+  float: right;
+  margin: auto;
+}
+
+.header-button {
+  background-color: #ED7D2F;
+}
+
+/* Section 2 Collab */
+
+#section-2 {
+  background-color: #263546;
+  padding-top: 20px;
+  padding-bottom: 50px;
+  padding-left: 20%;
+  padding-right: 20%;
+}
+
+.collabimage {
+  width: 40%;
+  height: auto;
+  position: relative;
+  top: 10px;
+}
+
+.collabcontent {
+  float: right;
+}
+
+.collab-button {
+  background-color: #D0363A;
+  margin-left: 40px;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+.collab-bottom {
+  font-size: 14px;
+  padding: 5px 0 5px 55px;
+}
+
+/* Section 3 */
+
+#section-3 {
+  background-image: url("images/forklift.svg");
+  background-size: cover;
+  height: 500px;
+}
+
+.section-3-content {
+  position: absolute;
+  padding: 8% 60% 0 20%;
+}
+
+.installbutton {
+  background-color: #243543;
+}
+
+/* Section 4 */
+
+#section-4 {
+  padding: 20px 180px 20px 180px;
+  color: black;
+  margin-bottom: 300px;
+}
+
+.section-4-top {
+  text-align: center;
+}
+
+.section-4-bottom {
+
+}
+
+.modules {
+  width: 28%;
+  float: left;
+  padding: 0 20px 0 20px;
 }
